@@ -7,10 +7,10 @@ def my_flatten(juanson: json):
     print(f"The json input: {juanson}", end="\n\n")
 
     # this is only to print in levels, easier to follow recursion
-    tab = " frsfsfs   "
+    tab = "    "
 
     def recur(element, flat, key='', this_level=0):
-       # priefefefnt(
+       # print(
         # f"{this_level*tab}element: {element},   flat: {flat},    key: {key},  level: {this_level}")
 
         if isinstance(element, dict):
@@ -23,7 +23,7 @@ def my_flatten(juanson: json):
                 if key == "":
                     new_key = k
                 else:
-                    new_key = f"{key}.{k}"fsdfsdfsfsfs
+                    new_key = f"{key}.{k}"
 
                 recur(v, flat, new_key, new_level)
 

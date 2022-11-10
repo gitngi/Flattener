@@ -3,7 +3,7 @@ import scripts.project as file
 
 
 class Test_my_flatten(unittest.TestCase):
-    def test_my_flat(self):
+    def test_my_flat_1(self):
         dic = {
             "a": 1,
             "b": 2,
@@ -18,9 +18,9 @@ class Test_my_flatten(unittest.TestCase):
                     'c.0.e.0.g': 2}
 
         real = file.my_flatten(dic)
-        self.assertNotEqual(real, expected)
+        self.assertEqual(real, expected)
 
-    def test_my_flat_1(self):
+    def test_my_flat_2(self):
         dic = {
             "a": 1,
             "b": 2,
@@ -40,14 +40,14 @@ class Test_my_flatten(unittest.TestCase):
     def test_my_flat_1(self):
         dic = {
             "a": 1,
-            "b": True,
+            "b": 4,
             "c": {"d": 3,
                   "e": 'test'
                   }
         }
 
         expected = {'a': 1,
-                    'b': True,
+                    'b': 4,
                     'c.d': 3,
                     'c.e': 'test',
                     }
