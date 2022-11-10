@@ -6,7 +6,7 @@
 The program takes a JSON object as input and outputs a flattened version of the JSON object, with keys as the path to every terminal value in the JSON structure.
 
 ###### To use it:
-<br><li>Make sure you have Python 3.9.13 installed <br>
+<li>Make sure you have Python 3.9.13 installed <br>
 <br><li>Clone the repository<br>
 <br><li>Open the project in your IDE<br>
 <br><li>in folder 'scripts' find project.py <br>
@@ -15,7 +15,7 @@ The program takes a JSON object as input and outputs a flattened version of the 
 ```
 Python3 PATH_TO_FILE/project.py
 ```
-###### <br> Tests <br>
+###### <br> Tests
 <br><li>Tests are present in the folder 'tests' <br>
 <br><li>execute with command
 
