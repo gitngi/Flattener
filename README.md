@@ -11,16 +11,17 @@ To use it:
 <br> in folder 'scripts' find project.py <br>
 <br> execute with command
 
-````
+```
 Python3 PATH_TO_FILE/project.py
-```<br>
-<br>
+```
+
 <br>Tests are present in the folder 'tests' <br>
 <br> execute with command
-````
+
+```
 
 Python3 -m unittest PATH_TO_FILE/test_file.py
 
-```<br>
-
 ```
+
+<br>
