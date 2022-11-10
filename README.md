@@ -1,7 +1,7 @@
-# Flattener
+# The JSON Flattener
 
 
-## <br>Welcome to the Json flattener<br>
+## <br>Welcome to the JSON flattener<br>
 
 The program takes a JSON object as input and outputs a flattened version of the JSON object, with keys as the path to every terminal value in the JSON structure.
 
