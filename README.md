@@ -7,7 +7,7 @@ The program takes a JSON object as input and outputs a flattened version of the 
 To use it:
 <br><li>Make sure you have Python 3.9.13 installed <br>
 <br><li>Clone the repository<br>
-<br><li>Open the project.py<br>
+<br><li>Open the project in your IDE<br>
 <br><li>in folder 'scripts' find project.py <br>
 <br><li>execute with command
 
