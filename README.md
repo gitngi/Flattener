@@ -15,7 +15,7 @@ The program takes a JSON object as input and outputs a flattened version of the 
 ```
 Python3 PATH_TO_FILE/project.py
 ```
-###### <br> Tests
+###### Tests
 <br><li>Tests are present in the folder 'tests' <br>
 <br><li>execute with command
 
