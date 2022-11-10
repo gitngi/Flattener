@@ -11,7 +11,7 @@ The program takes a JSON object as input and outputs a flattened version of the 
 <br><li>Open the project in your IDE<br>
 <br><li>in folder 'scripts' find project.py <br>
 <br><li>execute with command<br>
-
+<br>
 ```
 Python3 PATH_TO_FILE/project.py
 ```
@@ -21,7 +21,7 @@ Python3 PATH_TO_FILE/project.py
 ###### Tests
 <li>Tests are present in the folder 'tests' <br>
 <br><li>execute with command<br>
-
+<br>
 ```
 
 Python3 -m unittest PATH_TO_FILE/test_file.py
