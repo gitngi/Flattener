@@ -54,3 +54,6 @@ class Test_my_flatten(unittest.TestCase):
 
         real = file.my_flatten(dic)
         self.assertEqual(real, expected)
+
+if __name__ == '__main__':
+    unittest.main()
