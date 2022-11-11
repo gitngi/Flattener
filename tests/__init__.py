@@ -1,1 +1,1 @@
-from scripts import project
+from scripts import flattener

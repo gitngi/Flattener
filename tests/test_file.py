@@ -1,8 +1,8 @@
 import unittest
-import scripts.project as file
+from scripts.flattener import Flattener
 
 
-class Test_my_flatten(unittest.TestCase):
+class TestMyFlatten(unittest.TestCase):
     def test_my_flat_1(self):
         dic = {
             "a": 1,
@@ -17,7 +17,7 @@ class Test_my_flatten(unittest.TestCase):
                     'c.0.e.0.f': 1,
                     'c.0.e.0.g': 2}
 
-        real = file.my_flatten(dic)
+        real = Flattener.my_flatten(dic)
         self.assertEqual(real, expected)
 
     def test_my_flat_2(self):
@@ -34,10 +34,10 @@ class Test_my_flatten(unittest.TestCase):
                     'c.e.f': 1,
                     'c.0.e.0.g': 2}
 
-        real = file.my_flatten(dic)
+        real = Flattener.my_flatten(dic)
         self.assertNotEqual(real, expected)
 
-    def test_my_flat_1(self):
+    def test_my_flat_3(self):
         dic = {
             "a": 1,
             "b": 4,
@@ -52,8 +52,9 @@ class Test_my_flatten(unittest.TestCase):
                     'c.e': 'test',
                     }
 
-        real = file.my_flatten(dic)
+        real = Flattener.my_flatten(dic)
         self.assertEqual(real, expected)
+
 
 if __name__ == '__main__':
     unittest.main()
